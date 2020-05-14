@@ -8,6 +8,11 @@
   Here is an app to buy some video game and consoles
 </p>
 
+<ul>
+ 	<li *ngFor="let product of productList">{{product}}</li>
+  
+</ul>
+
 <buttonclick)="decrement_counter()">-</button>
 <p>{{counter}}</p>
 <button (click)="increment_counter()">+</button>

@@ -11,6 +11,15 @@ export class AppComponent  {
   counter = 1;
   isVisible = true;
 
+  productList = [
+    "Batman Arkham Asylum",
+    "Batman Arkhma City",
+    "Batman Arkham Origins",
+    "Batman Arkham Knight",
+    "Playstation 4",
+    "PC"
+  ]
+
   increment_counter(){
     this.counter = this.counter + 1;
   }
