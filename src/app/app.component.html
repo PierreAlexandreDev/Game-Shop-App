@@ -1,6 +1,10 @@
-<hello name="{{ name }}"></hello>
-<p>
+
+<button (click)="showOrHide()">Show/Hide</button>
+
+<p *ngIf="isVisible">
   Hello! I am {{name}}
+</p>
+<p>
   Here is an app to buy some video game and consoles
 </p>
 

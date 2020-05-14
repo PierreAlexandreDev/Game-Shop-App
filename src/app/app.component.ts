@@ -9,6 +9,7 @@ export class AppComponent  {
   name = 'Pierre-Alexandre';
   appname = 'game-shop-app';
   counter = 1;
+  isVisible = true;
 
   increment_counter(){
     this.counter = this.counter + 1;
@@ -16,5 +17,9 @@ export class AppComponent  {
 
   decrement_counter(){
     this.counter = this.counter - 1;
+  }
+
+  showOrHide() {
+  	this.isVisble = !this.isVisible;
   }
 }
